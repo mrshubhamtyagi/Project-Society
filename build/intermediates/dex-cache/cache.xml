@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/MrShubhamTyagi/Documents/AndroidStudioWorkspace/NEW/2017/ProjectSociety/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="08d101b64e11fff607f4932ab951be9e9f3715f2">
+        <dex dex="/Users/MrShubhamTyagi/Documents/AndroidStudioWorkspace/NEW/2017/ProjectSociety/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_5920ca0c516947dbc4822b50479ee58832c572a6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MrShubhamTyagi/.android/build-cache/124fa4dbf01abf3c16fc6a925d68702c519f7adf/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="ac6948cce36f694f3eb3d73a135e298dc4b3527a">
+        <dex dex="/Users/MrShubhamTyagi/Documents/AndroidStudioWorkspace/NEW/2017/ProjectSociety/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d639abb98333cc382e6ca019a4660b58e99fb32a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/MrShubhamTyagi/Documents/AndroidStudioWorkspace/NEW/2017/ProjectSociety/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/MrShubhamTyagi/Documents/AndroidStudioWorkspace/NEW/2017/ProjectSociety/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_77b65f49a1edd77593631ad5e8fbdc436aa4d9e7/classes.dex" />
+    </item>
+
+</items>

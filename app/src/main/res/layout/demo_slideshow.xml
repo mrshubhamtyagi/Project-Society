@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ViewFlipper
+        android:id="@+id/demo_slideshow_flipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/demo_slideshow_1"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/slideshow_1" />
+
+        <ImageView
+            android:id="@+id/demo_slideshow_2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/slideshow_2" />
+
+        <ImageView
+            android:id="@+id/demo_slideshow_3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/slideshow_3" />
+
+        <ImageView
+            android:id="@+id/demo_slideshow_4"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/slideshow_4" />
+
+        <ImageView
+            android:id="@+id/demo_slideshow_5"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/slideshow_5" />
+
+    </ViewFlipper>
+
+</LinearLayout>

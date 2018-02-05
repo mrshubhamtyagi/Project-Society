@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mrshubhamtyagi.projectsociety.AboutUs">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:theme="@style/ThemeOverlay.AppCompat.Light">
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_aboutUs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="4dp"
+            android:fitsSystemWindows="true"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:title="About Us" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <ImageView
+            android:id="@+id/about_iv"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/about_img" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+        android:drawablePadding="16dp"
+        android:text="Shubham Tyagi"
+        android:textColor="@color/colorDarkGrey"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:drawableLeft="@drawable/ic_phone_black_24dp"
+        android:drawablePadding="16dp"
+        android:text="+91-9911220484"
+        android:textColor="@color/colorDarkGrey"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        android:drawablePadding="16dp"
+        android:text="styagi.2301@gmail.com"
+        android:textColor="@color/colorDarkGrey"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

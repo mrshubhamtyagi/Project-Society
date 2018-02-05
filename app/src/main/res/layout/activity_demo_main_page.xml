@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.mrshubhamtyagi.projectsociety.Demo.DemoMainPage">
+
+    <LinearLayout
+        android:id="@+id/homepage_linearLayout_admin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/demo_main_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:fitsSystemWindows="true"
+                android:minHeight="?attr/actionBarSize"
+                app:theme="@style/ThemeOverlay.AppCompat.Dark"
+                app:title="Demo" />
+
+        </android.support.design.widget.AppBarLayout>
+
+        <include layout="@layout/demo_slideshow" />
+
+        <Button
+            android:id="@+id/btn_newMember_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00ffffff"
+            android:text="Make a Register Request."
+            android:textAllCaps="false"
+            android:textColor="@color/colorDarkGrey"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:id="@+id/sv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:fillViewport="true">
+
+            <include
+                layout="@layout/grid_layout_member"
+                android:gravity="center" />
+        </ScrollView>
+
+    </LinearLayout>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navView"
+        android:layout_width="260dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:elevation="8dp"
+        app:headerLayout="@layout/navdraw_header"
+        app:itemIconTint="@color/colorPrimary"
+        app:itemTextColor="@color/colorDarkGrey"
+        app:menu="@menu/navdraw_menu">
+
+    </android.support.design.widget.NavigationView>
+
+</android.support.v4.widget.DrawerLayout>
+

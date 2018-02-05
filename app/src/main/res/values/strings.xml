@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ProjectSociety</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="grid_view_text">
+
+        <item>Events</item>
+        <item>Complaints</item>
+        <item>Meetings</item>
+        <item>Gallery</item>
+        <item>Facilities</item>
+        <item>Directory</item>
+        <item>Rules</item>
+        <item>Pay</item>
+
+    </string-array>
+
+
+</resources>

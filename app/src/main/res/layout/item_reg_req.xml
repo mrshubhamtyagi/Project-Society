@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="4dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBlueAlpha"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="4dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="UID :"
+                android:textColor="@color/colorDarkGrey"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv__regReq_serial"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:hint="Uid"
+                android:textColor="@color/colorDarkGrey" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="4dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Full Name :"
+                android:textColor="@color/colorDarkGrey"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv__regReq_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:hint="Name"
+                android:textColor="@color/colorDarkGrey" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="4dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Email ID :"
+                android:textColor="@color/colorDarkGrey"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv__regReq_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:hint="Email"
+                android:textColor="@color/colorDarkGrey" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="4dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Mobile No :"
+                android:textColor="@color/colorDarkGrey"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv__regReq_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:hint="Mobile"
+                android:textColor="@color/colorDarkGrey" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="4dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Block :"
+                android:textColor="@color/colorDarkGrey"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv__regReq_block"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:hint="Block"
+                android:textColor="@color/colorDarkGrey" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="4dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Flat No :"
+                android:textColor="@color/colorDarkGrey"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv__regReq_flat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:hint="Flat"
+                android:textColor="@color/colorDarkGrey" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btn_regReg_acceptReq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#00ffffff"
+                android:clickable="true"
+                android:onClick="acceptRequest"
+                android:src="@drawable/ic_approved_green_24dp" />
+
+            <ImageButton
+                android:id="@+id/btn_regReg_rejectReq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="24dp"
+                android:background="#00ffffff"
+                android:clickable="true"
+                android:onClick="rejectRequest"
+                android:src="@drawable/ic_not_approved_red_24dp" />
+
+            <TextView
+                android:id="@+id/tv_regReq_result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginRight="16dp"
+                android:gravity="right"
+                android:text="Dummy Text"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

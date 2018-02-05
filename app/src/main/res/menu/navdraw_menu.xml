@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:checkable="true"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home"
+            />d
+    </group>
+
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_aboutUs"
+            android:checkable="true"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="About Us"
+            />
+
+        <item
+            android:id="@+id/nav_rateUs"
+            android:checkable="true"
+            android:icon="@drawable/ic_star_black_24dp"
+            android:title="Rate Us"
+            />
+
+        <item
+            android:id="@+id/nav_helpSupport"
+            android:checkable="true"
+            android:icon="@drawable/ic_help_black_24dp"
+            android:title="Help/Support"
+            />
+    </group>
+
+    <group
+        android:id="@+id/group3"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_backToLogin"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="Logout"
+            />
+    </group>
+
+    <group
+        android:id="@+id/group4"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_facebook"
+            android:checkable="true"
+            android:icon="@drawable/icons_facebook"
+            android:title="Facebook"
+            />
+
+        <item
+            android:id="@+id/nav_instagram"
+            android:checkable="true"
+            android:icon="@drawable/icons_instagram"
+            android:title="Instagram"
+            />
+
+        <item
+            android:id="@+id/nav_googlePLus"
+            android:checkable="true"
+            android:icon="@drawable/icons_googleplus"
+            android:title="Google Plus"
+            />
+
+    </group>
+
+</menu>
